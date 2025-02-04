@@ -8,7 +8,7 @@
                 <a href="#" class="text-indigo-600 hover:text-gray-700 transition duration-500 ease-in-out text-sm">
                     Javascript
                 </a>
-                <h1 href="#" class="text-gray-900 font-bold text-4xl">Métodos con arreglos en JS (SLICE)</h1>
+                <h1 href="#" class="text-gray-900 font-bold text-4xl">Métodos con arreglos en JS (MAP)</h1>
                 <div class="py-5 text-sm font-regular text-gray-900 flex">
                     <span class="mr-3 flex flex-row items-center">
                        <svg class="text-indigo-600" fill="currentColor" height="13px" width="13px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g>
@@ -47,46 +47,25 @@
                     serán faciles de ser recordados. 
                 </p> -->
 
-                <h3 class="text-2xl font-bold my-5"> SLICE</h3>
+                <h3 class="text-2xl font-bold my-5"> MAP</h3>
                 <blockquote class="text-md italic leading-8 my-5 p-5 text-indigo-600 font-semibold">
-                    hacer una copia del arreglo original
+                    itera un arreglo y crea un nuevo arreglo segun la modificación que se le haga  a cada elemento
                 </blockquote>
 
                 <p class="text-base leading-8 my-5">
                     Con este método podremos realizar una copia del arreglo original
-                    segun un indice dado, <span class="text-blue-500" >con este metodo el arreglo original NO es modificado</span>, la sintaxis es:
+                    <span class="text-blue-500" >con este metodo el arreglo original NO es modificado</span>
                 </p>
-
-                <Shiki lang="js" 
-                code="
-slice(indice_inicio , indice_fin-opcional)
-//el indice_iniio si se considera en el nuevo arreglo que queremos obtener
-//el indice_fin es el limite pero no se considera en el arreglo que queremos obtener
-" />
-
-                
 
                 <p class="text-base leading-8 my-5">
-                    Algunos ejemplos que abarcan el uso de este método
+                    Un ejemplo de este método
                 </p>
                 <Shiki lang="js" 
                 code="
-//Extrer los dos primeros elementos de un arreglo
-var frase = ['incluso', 'hasta', 'las', 'mas' 'dulces', 'rosas', 'tienen','espinas'];
-const arrslice=frase.slice(0, 2);
-// arr_slice = ['incluso', 'hasta'];
-
-//Extrer los dos ultimos elementos de un arreglo
-var frase = ['incluso', 'hasta', 'las', 'mas' 'dulces', 'rosas', 'tienen','espinas'];
-const arrslice=frase.slice(6);
-// arr_slice = ['tienen','espinas'];
-
-//Extrer los dos ultimos elementos de un arreglo usando valores negativos
-var frase = ['incluso', 'hasta', 'las', 'mas' 'dulces', 'rosas', 'tienen','espinas'];
-const arrslice=frase.slice(-1);
-// arr_slice = ['tienen','espinas'];
-//para valores negativos contamos el arreglo desde el fin hasta el inio en ese orden <-
- 
+//Filtrar los numero mayores a 18
+var naturales = [1,2,3,4,5,6,7,8];
+const dobles=naturales.map((u)=>u*2);
+// dobles = [2,4,6,8,10,12,14,16];
 
                 " />
  
