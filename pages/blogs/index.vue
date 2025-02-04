@@ -33,15 +33,31 @@ const itemsblog=ref([
 
     },
     {
-        title:'Crear un proyecto con NUXT',
-        id:2,
-        slug:'crear-proyecto-con-nuxt'
+        title:'Metodos con arreglos SPLICE',
+        id:3,
+        slug:'metodos-con-arreglos_splice'
     },
     {
-        title:'Crear un proyecto con NUXT',
-        id:3,
-        slug:'crear-proyecto-con-nuxt'
+        title:'Metodos con arreglos SLICE',
+        id:4,
+        slug:'metodos-con-arreglos_slice'
     },
+    {
+        title:'Metodos con arreglos FILTER',
+        id:5,
+        slug:'metodos-con-arreglos_filter'
+    },
+    {
+        title:'Metodos con arreglos MAP',
+        id:6,
+        slug:'metodos-con-arreglos_map'
+    },
+    {
+        title:'Metodos con arreglos REVERSE',
+        id:7,
+        slug:'metodos-con-arreglos_reverse'
+    },
+
 ])
 
 </script>
