@@ -35,27 +35,27 @@ const itemsblog=ref([
     {
         title:'Metodos con arreglos SPLICE',
         id:3,
-        slug:'metodos-con-arreglos_splice'
+        slug:'metodos-con-arreglos-splice'
     },
     {
         title:'Metodos con arreglos SLICE',
         id:4,
-        slug:'metodos-con-arreglos_slice'
+        slug:'metodos-con-arreglos-slice'
     },
     {
         title:'Metodos con arreglos FILTER',
         id:5,
-        slug:'metodos-con-arreglos_filter'
+        slug:'metodos-con-arreglos-filter'
     },
     {
         title:'Metodos con arreglos MAP',
         id:6,
-        slug:'metodos-con-arreglos_map'
+        slug:'metodos-con-arreglos-map'
     },
     {
         title:'Metodos con arreglos REVERSE',
         id:7,
-        slug:'metodos-con-arreglos_reverse'
+        slug:'metodos-con-arreglos-reverse'
     },
 
 ])
