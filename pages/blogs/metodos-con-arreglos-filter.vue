@@ -62,7 +62,7 @@
                 </p>
                 <Shiki lang="js" 
                 code="
-//Filtrar los numero mayores a 18
+//Filtrar los numero mayores o iguales a 18
 var edades = [12,13,15,20,25,19,22,14];
 const mayor_edad=edades.filter((u)=>u>=18);
 // mayor_edad = [20,25,19,22];

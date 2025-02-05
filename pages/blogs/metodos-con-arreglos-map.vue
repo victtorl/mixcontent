@@ -62,7 +62,7 @@
                 </p>
                 <Shiki lang="js" 
                 code="
-//Filtrar los numero mayores a 18
+//Crear un arreglo en el que cada elemento sea el doble del arreglo original
 var naturales = [1,2,3,4,5,6,7,8];
 const dobles=naturales.map((u)=>u*2);
 // dobles = [2,4,6,8,10,12,14,16];
